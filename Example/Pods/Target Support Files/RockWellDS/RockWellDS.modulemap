@@ -1,0 +1,6 @@
+framework module RockWellDS {
+  umbrella header "RockWellDS-umbrella.h"
+
+  export *
+  module * { export * }
+}

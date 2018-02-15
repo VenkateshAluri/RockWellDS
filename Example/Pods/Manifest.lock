@@ -1,0 +1,16 @@
+PODS:
+  - RockWellDS (0.1.0)
+
+DEPENDENCIES:
+  - RockWellDS (from `../`)
+
+EXTERNAL SOURCES:
+  RockWellDS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RockWellDS: d1cd5c2eb047905d9485964e9e2892c52bcd2ac6
+
+PODFILE CHECKSUM: a6d5d7a1dcf0b51513f0810433968b1f97edc68e
+
+COCOAPODS: 1.4.0

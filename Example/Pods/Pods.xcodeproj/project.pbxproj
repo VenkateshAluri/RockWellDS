@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333F83198DF9C56FE5C84506E5262DBE /* RockWellDS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C631E7139CD2EEC649BEA0868C00134 /* RockWellDS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A8966910F01E16B82548D38E6FEE16 /* RockWellDS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CE0275FB783324731C7B1F0E0BF6E8 /* RockWellDS-dummy.m */; };
+		6EB0734EA70D04063B486C73B4341004 /* Pods-RockWellDS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6709CEF4FC2C8B02273D3D2C38F0C8AA /* Pods-RockWellDS_Tests-dummy.m */; };
+		72F2040FD3ECC58F362E1E3937E97BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		784A0FB2795402E2B9B75ACDB60B2A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7E155A7267F1FEB742E183B1F78ADFCB /* Pods-RockWellDS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F757AC83D08BA0437EC20FEE08226850 /* Pods-RockWellDS_Example-dummy.m */; };
+		7F6B8B7503B1DB5CC44E2E9F929E9E05 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8020F49DE483242430AB3EE4C1DA96F /* ReplaceMe.swift */; };
+		ACC3BDE5077BFD25FB8194D0696270C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D759773D6852BA6F3F4F9EA74BF963AA /* Pods-RockWellDS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C74B86E3CA918E3866AA317DBEE4F0 /* Pods-RockWellDS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E260184692E8219B1F53A4E919331075 /* Pods-RockWellDS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 840E393E6EA0677DF1F2198EB75758EB /* Pods-RockWellDS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA5D5C486E366EB146DDFC3FB67FA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 134B1F4583FA96FE27744B62F95F3C8C;
+			remoteInfo = RockWellDS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10474644F9FD49C93433AD675F4031AD /* RockWellDS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RockWellDS-prefix.pch"; sourceTree = "<group>"; };
+		16024DD2FD068A596D4CA49C14602FC0 /* Pods-RockWellDS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RockWellDS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21352C969B2FA958493F1F2AEB234E81 /* RockWellDS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RockWellDS.xcconfig; sourceTree = "<group>"; };
+		264F75EC897B25ADB0B42E488A5E3CFD /* Pods-RockWellDS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RockWellDS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		334296B7F316465134D9BC80A0477190 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D3F0990FD063CF0FFD32C7ADC272AC /* RockWellDS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RockWellDS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		361BDB9EAACA8B9989802473AC0C9746 /* Pods-RockWellDS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RockWellDS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		39E35625572ED9EA5426D09B2BD4C2BE /* Pods_RockWellDS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RockWellDS_Example.framework; path = "Pods-RockWellDS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C631E7139CD2EEC649BEA0868C00134 /* RockWellDS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RockWellDS-umbrella.h"; sourceTree = "<group>"; };
+		45CE0275FB783324731C7B1F0E0BF6E8 /* RockWellDS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RockWellDS-dummy.m"; sourceTree = "<group>"; };
+		49578085524D684A3DC7C03C142485FE /* Pods-RockWellDS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RockWellDS_Example-resources.sh"; sourceTree = "<group>"; };
+		57CB879E7371A408D1E379CA4E7559AA /* Pods-RockWellDS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RockWellDS_Tests.modulemap"; sourceTree = "<group>"; };
+		59C1DB6A4F747FD2A94E0E98872C5A59 /* Pods-RockWellDS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RockWellDS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66E4F2724D8061AEAA0AF6AD407D21AA /* Pods-RockWellDS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RockWellDS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6709CEF4FC2C8B02273D3D2C38F0C8AA /* Pods-RockWellDS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RockWellDS_Tests-dummy.m"; sourceTree = "<group>"; };
+		7667F99E968789D15E9AD2945F39F1E4 /* RockWellDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RockWellDS.framework; path = RockWellDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AD84850C6293BF6E70BD6A318FF59F /* Pods-RockWellDS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RockWellDS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		840E393E6EA0677DF1F2198EB75758EB /* Pods-RockWellDS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RockWellDS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		84EC5E3F30559CC57A6431964F100047 /* Pods-RockWellDS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RockWellDS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A302B83206AAAEFA5B835EF9FB775C7 /* Pods-RockWellDS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RockWellDS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A4EA77A36BB7ED2FD547FC146E917D66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2486CF2359356A5A2D4F4D242BE7A5 /* Pods-RockWellDS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RockWellDS_Example.modulemap"; sourceTree = "<group>"; };
+		AD9B5BD58CAE38C847918C605385F47B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D3354EBAC51A6903D9FC8F0A880784 /* Pods-RockWellDS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RockWellDS_Tests-resources.sh"; sourceTree = "<group>"; };
+		B7C74B86E3CA918E3866AA317DBEE4F0 /* Pods-RockWellDS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RockWellDS_Example-umbrella.h"; sourceTree = "<group>"; };
+		B8020F49DE483242430AB3EE4C1DA96F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RockWellDS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		BDCAA046FFC6E2FA1C86B7AFD11F45FC /* Pods_RockWellDS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RockWellDS_Tests.framework; path = "Pods-RockWellDS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49CD1C61A3A7BC51C58C03066F6AB63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E5F4087B7D83F3C3155EBE66A01A9CDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E704D23FE06926ED5E0735DFF5B96B2E /* RockWellDS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RockWellDS.modulemap; sourceTree = "<group>"; };
+		F757AC83D08BA0437EC20FEE08226850 /* Pods-RockWellDS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RockWellDS_Example-dummy.m"; sourceTree = "<group>"; };
+		F7B8791C7B0237FD91B4C28313524F33 /* Pods-RockWellDS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RockWellDS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDE7B3FE5986201B0FFC82D611AF5C38 /* Pods-RockWellDS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RockWellDS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		325D5AD48EB7213DE9B9C2EEFDC2FA08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC3BDE5077BFD25FB8194D0696270C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802EFCF94FA8B55721FBA996D68D476D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784A0FB2795402E2B9B75ACDB60B2A62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8F9A43CDD5BCC7F2F669D68DF224AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F2040FD3ECC58F362E1E3937E97BB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091414ED92C4ED88B440692A3501F00F /* Pods-RockWellDS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA77A36BB7ED2FD547FC146E917D66 /* Info.plist */,
+				57CB879E7371A408D1E379CA4E7559AA /* Pods-RockWellDS_Tests.modulemap */,
+				81AD84850C6293BF6E70BD6A318FF59F /* Pods-RockWellDS_Tests-acknowledgements.markdown */,
+				59C1DB6A4F747FD2A94E0E98872C5A59 /* Pods-RockWellDS_Tests-acknowledgements.plist */,
+				6709CEF4FC2C8B02273D3D2C38F0C8AA /* Pods-RockWellDS_Tests-dummy.m */,
+				FDE7B3FE5986201B0FFC82D611AF5C38 /* Pods-RockWellDS_Tests-frameworks.sh */,
+				B6D3354EBAC51A6903D9FC8F0A880784 /* Pods-RockWellDS_Tests-resources.sh */,
+				840E393E6EA0677DF1F2198EB75758EB /* Pods-RockWellDS_Tests-umbrella.h */,
+				361BDB9EAACA8B9989802473AC0C9746 /* Pods-RockWellDS_Tests.debug.xcconfig */,
+				66E4F2724D8061AEAA0AF6AD407D21AA /* Pods-RockWellDS_Tests.release.xcconfig */,
+			);
+			name = "Pods-RockWellDS_Tests";
+			path = "Target Support Files/Pods-RockWellDS_Tests";
+			sourceTree = "<group>";
+		};
+		0A9FF12D11484B1C3869968FBF317D84 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D49CD1C61A3A7BC51C58C03066F6AB63 /* LICENSE */,
+				E5F4087B7D83F3C3155EBE66A01A9CDA /* README.md */,
+				33D3F0990FD063CF0FFD32C7ADC272AC /* RockWellDS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		26EA2C0E026B7F75C5F735FB117496EF /* Pods-RockWellDS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B5BD58CAE38C847918C605385F47B /* Info.plist */,
+				AA2486CF2359356A5A2D4F4D242BE7A5 /* Pods-RockWellDS_Example.modulemap */,
+				F7B8791C7B0237FD91B4C28313524F33 /* Pods-RockWellDS_Example-acknowledgements.markdown */,
+				16024DD2FD068A596D4CA49C14602FC0 /* Pods-RockWellDS_Example-acknowledgements.plist */,
+				F757AC83D08BA0437EC20FEE08226850 /* Pods-RockWellDS_Example-dummy.m */,
+				264F75EC897B25ADB0B42E488A5E3CFD /* Pods-RockWellDS_Example-frameworks.sh */,
+				49578085524D684A3DC7C03C142485FE /* Pods-RockWellDS_Example-resources.sh */,
+				B7C74B86E3CA918E3866AA317DBEE4F0 /* Pods-RockWellDS_Example-umbrella.h */,
+				9A302B83206AAAEFA5B835EF9FB775C7 /* Pods-RockWellDS_Example.debug.xcconfig */,
+				84EC5E3F30559CC57A6431964F100047 /* Pods-RockWellDS_Example.release.xcconfig */,
+			);
+			name = "Pods-RockWellDS_Example";
+			path = "Target Support Files/Pods-RockWellDS_Example";
+			sourceTree = "<group>";
+		};
+		4B421C0DB88B322F10E55A18270439A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				334296B7F316465134D9BC80A0477190 /* Info.plist */,
+				E704D23FE06926ED5E0735DFF5B96B2E /* RockWellDS.modulemap */,
+				21352C969B2FA958493F1F2AEB234E81 /* RockWellDS.xcconfig */,
+				45CE0275FB783324731C7B1F0E0BF6E8 /* RockWellDS-dummy.m */,
+				10474644F9FD49C93433AD675F4031AD /* RockWellDS-prefix.pch */,
+				3C631E7139CD2EEC649BEA0868C00134 /* RockWellDS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RockWellDS";
+			sourceTree = "<group>";
+		};
+		5C93525F66C011F9564E70CD041FA34C /* RockWellDS */ = {
+			isa = PBXGroup;
+			children = (
+				B8020F49DE483242430AB3EE4C1DA96F /* ReplaceMe.swift */,
+				0A9FF12D11484B1C3869968FBF317D84 /* Pod */,
+				4B421C0DB88B322F10E55A18270439A0 /* Support Files */,
+			);
+			name = RockWellDS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		68C9C73A0337172EF08B56781010CDD6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26EA2C0E026B7F75C5F735FB117496EF /* Pods-RockWellDS_Example */,
+				091414ED92C4ED88B440692A3501F00F /* Pods-RockWellDS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E38195F5E0FAE7B6C0FEDFEFE826C76F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7F2BFDB3684C44CAB5510D3B02CF7208 /* Products */,
+				68C9C73A0337172EF08B56781010CDD6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2BFDB3684C44CAB5510D3B02CF7208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39E35625572ED9EA5426D09B2BD4C2BE /* Pods_RockWellDS_Example.framework */,
+				BDCAA046FFC6E2FA1C86B7AFD11F45FC /* Pods_RockWellDS_Tests.framework */,
+				7667F99E968789D15E9AD2945F39F1E4 /* RockWellDS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E38195F5E0FAE7B6C0FEDFEFE826C76F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C93525F66C011F9564E70CD041FA34C /* RockWellDS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FED4E8B6B78CB7131624468E0F4A82C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D759773D6852BA6F3F4F9EA74BF963AA /* Pods-RockWellDS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F9028D0E14578C82DE3FDB729E21BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E260184692E8219B1F53A4E919331075 /* Pods-RockWellDS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30867D7DC39C7FEC7108BDC0A5E51E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333F83198DF9C56FE5C84506E5262DBE /* RockWellDS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1120F08A1552100FA5A2E1F7305B4FDA /* Pods-RockWellDS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324CED99DB4BB9305AFDF325622FBEC9 /* Build configuration list for PBXNativeTarget "Pods-RockWellDS_Tests" */;
+			buildPhases = (
+				36F7B38A36164EAD00CCB017CDDEBA5D /* Sources */,
+				325D5AD48EB7213DE9B9C2EEFDC2FA08 /* Frameworks */,
+				D8F9028D0E14578C82DE3FDB729E21BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RockWellDS_Tests";
+			productName = "Pods-RockWellDS_Tests";
+			productReference = BDCAA046FFC6E2FA1C86B7AFD11F45FC /* Pods_RockWellDS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		134B1F4583FA96FE27744B62F95F3C8C /* RockWellDS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63AFB7D377F9901D507FB4A403EBD8CB /* Build configuration list for PBXNativeTarget "RockWellDS" */;
+			buildPhases = (
+				E33E063BA65646CBD19B1CDC9B545CAF /* Sources */,
+				802EFCF94FA8B55721FBA996D68D476D /* Frameworks */,
+				E30867D7DC39C7FEC7108BDC0A5E51E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockWellDS;
+			productName = RockWellDS;
+			productReference = 7667F99E968789D15E9AD2945F39F1E4 /* RockWellDS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B40A4DD1A710AAC7D3316B0D249C39D4 /* Pods-RockWellDS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CD0F059D0C874C8BC252104BA1441A /* Build configuration list for PBXNativeTarget "Pods-RockWellDS_Example" */;
+			buildPhases = (
+				ABF0B0B84B8DC431A93B93B9B2254CA4 /* Sources */,
+				BF8F9A43CDD5BCC7F2F669D68DF224AA /* Frameworks */,
+				2FED4E8B6B78CB7131624468E0F4A82C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929F2F0CC447B783B0CB82F0EC485183 /* PBXTargetDependency */,
+			);
+			name = "Pods-RockWellDS_Example";
+			productName = "Pods-RockWellDS_Example";
+			productReference = 39E35625572ED9EA5426D09B2BD4C2BE /* Pods_RockWellDS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7F2BFDB3684C44CAB5510D3B02CF7208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B40A4DD1A710AAC7D3316B0D249C39D4 /* Pods-RockWellDS_Example */,
+				1120F08A1552100FA5A2E1F7305B4FDA /* Pods-RockWellDS_Tests */,
+				134B1F4583FA96FE27744B62F95F3C8C /* RockWellDS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36F7B38A36164EAD00CCB017CDDEBA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB0734EA70D04063B486C73B4341004 /* Pods-RockWellDS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF0B0B84B8DC431A93B93B9B2254CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E155A7267F1FEB742E183B1F78ADFCB /* Pods-RockWellDS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33E063BA65646CBD19B1CDC9B545CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B8B7503B1DB5CC44E2E9F929E9E05 /* ReplaceMe.swift in Sources */,
+				39A8966910F01E16B82548D38E6FEE16 /* RockWellDS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929F2F0CC447B783B0CB82F0EC485183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RockWellDS;
+			target = 134B1F4583FA96FE27744B62F95F3C8C /* RockWellDS */;
+			targetProxy = EDA5D5C486E366EB146DDFC3FB67FA1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		231586B663034D00CEE9423772D95EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A302B83206AAAEFA5B835EF9FB775C7 /* Pods-RockWellDS_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RockWellDS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RockWellDS_Example/Pods-RockWellDS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RockWellDS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28ABF00ED8848C11C0861EFF415697A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EC5E3F30559CC57A6431964F100047 /* Pods-RockWellDS_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RockWellDS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RockWellDS_Example/Pods-RockWellDS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RockWellDS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40CA9C3F7EB0B3FF5B5A2A2D68D35C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21352C969B2FA958493F1F2AEB234E81 /* RockWellDS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RockWellDS/RockWellDS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RockWellDS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RockWellDS/RockWellDS.modulemap";
+				PRODUCT_NAME = RockWellDS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE8309E16306E4CB2051CC12445D2DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361BDB9EAACA8B9989802473AC0C9746 /* Pods-RockWellDS_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RockWellDS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RockWellDS_Tests/Pods-RockWellDS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RockWellDS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2755DCB5255D51261CFEC2C1A798595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21352C969B2FA958493F1F2AEB234E81 /* RockWellDS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RockWellDS/RockWellDS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RockWellDS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RockWellDS/RockWellDS.modulemap";
+				PRODUCT_NAME = RockWellDS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB59A64C739670ADFA2E78D81AFE7EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E4F2724D8061AEAA0AF6AD407D21AA /* Pods-RockWellDS_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RockWellDS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RockWellDS_Tests/Pods-RockWellDS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RockWellDS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324CED99DB4BB9305AFDF325622FBEC9 /* Build configuration list for PBXNativeTarget "Pods-RockWellDS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8309E16306E4CB2051CC12445D2DE5 /* Debug */,
+				EB59A64C739670ADFA2E78D81AFE7EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63AFB7D377F9901D507FB4A403EBD8CB /* Build configuration list for PBXNativeTarget "RockWellDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CA9C3F7EB0B3FF5B5A2A2D68D35C17 /* Debug */,
+				E2755DCB5255D51261CFEC2C1A798595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CD0F059D0C874C8BC252104BA1441A /* Build configuration list for PBXNativeTarget "Pods-RockWellDS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231586B663034D00CEE9423772D95EBD /* Debug */,
+				28ABF00ED8848C11C0861EFF415697A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
