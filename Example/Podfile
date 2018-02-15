@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RockWellDS_Example' do
+  pod 'RockWellDS', :path => '../'
+
+  target 'RockWellDS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
